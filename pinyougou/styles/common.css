@@ -1,0 +1,34 @@
+/*公共样式*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*版心*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+.spacer {
+    color: #666;
+    width: 1px;
+    height: 12px;
+}
