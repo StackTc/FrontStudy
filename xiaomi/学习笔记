@@ -1,7 +1,4 @@
-1. 为什么site-shop在topbar-info的右边
-2. topbar-nav宽度哪里定义的？div不是
-    浮动元素没有宽度，按照子元素的宽度来计算
-3. header里面的a标签为什么，无法继承header的color
-4. 为什么 .header a  用了display:inline-block以后position才有效，否则位置会变得很奇怪
-5. transition平滑过渡为什么无效？
-6. .search 下的2个input 为什么不能用display:inline-block， 默认input就是内联元素吧？ 为什么只能用浮动
+1. index.html中的 为什么site-shop在topbar-info的右边
+3. my.html  header盒子里面的a标签为什么，无法继承header的color
+6. my.html .search 下的2个input 为什么不能用display:inline-block， 默认input就是内联元素吧？ 为什么只能用浮动
+my.html中 为什么main里面的1 不是靠最最左边的，而是中间开始的
