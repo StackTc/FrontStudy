@@ -1,0 +1,23 @@
+.site-topbar {
+    background-color: #333;
+    height: 40px;
+}
+
+.site-topbar a {
+    line-height: 40px;
+    color: #b0b0b0;
+}
+
+.site-topbar span {
+    margin: 0 .3em;
+    color: #424242;
+}
+
+.site-shop {
+    margin-left: 15px;
+}
+
+.site-shop a {
+    height: 40px;
+    background-color: #424242;
+}

@@ -1,0 +1,39 @@
+.site-topbar {
+    background-color: #333;
+    height: 40px;
+}
+
+.site-topbar a {
+    line-height: 40px;
+    color: #b0b0b0;
+}
+
+.site-topbar span {
+    margin: 0 .3em;
+    color: #424242;
+}
+
+.site-shop {
+    height: 40px;
+    width: 120px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.site-shop .car {
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.site-shop a {
+    display: block;
+    height: 40px;
+    background-color: #424242;
+}
+
+.site-shop em {
+    font-size: 20px;
+    /* line-height: 20px; */
+    vertical-align: -4px;
+}

@@ -2,7 +2,3 @@
 3. my.html  header盒子里面的a标签为什么，无法继承header的color
 6. my.html .search 下的2个input 为什么不能用display:inline-block， 默认input就是内联元素吧？ 为什么只能用浮动
 my.html中 为什么main里面的1 不是靠最最左边的，而是中间开始的
-
----
-购物车的内边距哪里控制的？
-prettier自动格式化代码我的为什么不生效
