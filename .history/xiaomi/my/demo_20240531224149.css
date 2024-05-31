@@ -21,25 +21,13 @@
     font-size: 12px;
 }
 
-.site-shop:hover > .j-menu {
-    height: 99px;
-    transition: height .3s;
-}
-
-.site-shop:hover>.cart,
-.site-shop:hover>.cart em,
-.site-shop:hover>.cart span {
-    color: #ff6700;
-}
-
-.site-shop .cart {
+.site-shop .car {
     height: 40px;
     line-height: 40px;
     background-color: #424242;
     color: #b0b0b0;
     display: block;
     text-align: center;
-    position: relative;
 }
 
 
@@ -51,18 +39,16 @@
 }
 
 .J-sp {
-    color: #b0b0b0;
     padding: 0 5px;
+    color: #b0b0b0 !important;
 }
 
 .j-menu {
-    height: 0px;
-    line-height: 99px;
-    text-align: center;
+    height: 99px;
     width: 316px;
     box-shadow: 0px 2px 19px 0px rgba(0, 0, 0, 0.75);
     position: absolute;
     top: 40px;
     right: 0px;
-    overflow: hidden;
+
 }

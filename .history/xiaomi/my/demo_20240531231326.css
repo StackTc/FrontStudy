@@ -26,10 +26,9 @@
     transition: height .3s;
 }
 
-.site-shop:hover>.cart,
-.site-shop:hover>.cart em,
-.site-shop:hover>.cart span {
-    color: #ff6700;
+.site-shop:hover .cart {
+    background-color: #ff6700;
+    color: #fff;
 }
 
 .site-shop .cart {
@@ -51,8 +50,8 @@
 }
 
 .J-sp {
-    color: #b0b0b0;
     padding: 0 5px;
+    color: #b0b0b0 !important;
 }
 
 .j-menu {
