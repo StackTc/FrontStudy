@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 基本样式 */
+        .nav-item {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .nav-item:hover .qr-popup {
+            display: block;
+        }
+
+        .qr-popup {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            z-index: 100;
+        }
+
+        .qr-popup img {
+            max-width: 150px;
+        }
+    </style>
+    <title>QR Popup</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-item">
+            下载app
+            <div class="qr-popup">
+                <img src="your-qr-code.png" alt="QR Code">
+                <p>小米商城app</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
