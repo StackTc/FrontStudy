@@ -171,20 +171,6 @@
     width: 55px;
     height: 55px;
     content: "";
-    background: url(../images/mi-home.png) no-repeat 50% 50%;
+    backgroundimage: url(../images/mi-home.png) no-repeat 50% 50%;
     transition: all .2s;
-}
-
-.header-nav {
-    width: 850px;
-    border: 1px solid red;
-}
-
-.nav-list {
-    height: 100px;
-    line-height: 100px;
-}
-
-.nav-list li {
-    float: left;
 }

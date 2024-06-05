@@ -178,6 +178,10 @@
 .header-nav {
     width: 850px;
     border: 1px solid red;
+    margin-left: auto;
+    /* 确保它不会推挤到.logo */
+    margin-right: auto;
+    /* 并且居中对齐 */
 }
 
 .nav-list {

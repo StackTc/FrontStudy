@@ -182,9 +182,5 @@
 
 .nav-list {
     height: 100px;
-    line-height: 100px;
-}
-
-.nav-list li {
-    float: left;
+    hyphenate-limit-chars: ;
 }

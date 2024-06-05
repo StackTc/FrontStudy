@@ -160,8 +160,9 @@
     height: 55px;
     content: "";
     display: block;
-    background: url(../images/mi-logo.png) no-repeat 50% 50%;
+    background-image: url(../images/mi-logo.png);
     transition: all .2s;
+    transform-origin: 50% 50%;
 }
 
 .logo::after {
@@ -171,20 +172,7 @@
     width: 55px;
     height: 55px;
     content: "";
-    background: url(../images/mi-home.png) no-repeat 50% 50%;
+    background-image: url(../images/mi-home.png);
     transition: all .2s;
-}
-
-.header-nav {
-    width: 850px;
-    border: 1px solid red;
-}
-
-.nav-list {
-    height: 100px;
-    line-height: 100px;
-}
-
-.nav-list li {
-    float: left;
+    transform-origin: 50% 50%;
 }

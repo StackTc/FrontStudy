@@ -133,58 +133,12 @@
 }
 
 .head-logo {
-    display: block;
-    height: 55px;
+    /* height: 55px; */
     width: 55px;
-    background-color: #ff6700;
-    position: relative;
 }
 
-.head-logo:hover .logo::before {
-    left: 55px;
-}
-
-.head-logo:hover .logo::after {
-    left: 0;
-}
-
-.head-logo .text {
-    display: block;
-    text-align: left;
-    text-indent: -9999em;
-}
-
-.logo::before {
-    position: absolute;
-    width: 55px;
-    height: 55px;
+.a::before {
     content: "";
     display: block;
-    background: url(../images/mi-logo.png) no-repeat 50% 50%;
-    transition: all .2s;
-}
-
-.logo::after {
-    position: absolute;
-    top: 0;
-    left: -55px;
-    width: 55px;
-    height: 55px;
-    content: "";
-    background: url(../images/mi-home.png) no-repeat 50% 50%;
-    transition: all .2s;
-}
-
-.header-nav {
-    width: 850px;
-    border: 1px solid red;
-}
-
-.nav-list {
-    height: 100px;
-    line-height: 100px;
-}
-
-.nav-list li {
-    float: left;
+    /* background-image: url(../images/mi-logo.png); */
 }
