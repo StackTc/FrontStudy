@@ -130,6 +130,7 @@
     border: 1px solid red;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .head-logo {

@@ -185,6 +185,7 @@
     line-height: 100px;
     margin-left: 190px;
     font-size: 16px;
+    position: relative;
 }
 
 .nav-list span {
@@ -231,5 +232,5 @@
     position: absolute;
     top: 100px;
     height: 230px;
-    width: 1905px;
+    w100p
 }
