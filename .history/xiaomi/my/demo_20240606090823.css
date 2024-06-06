@@ -124,7 +124,6 @@
 
 
 .site-header {
-    position: relative;
     width: 1226px;
     height: 100px;
     margin: 0 auto;
@@ -234,7 +233,5 @@
     left: 0;
     height: 230px;
     width: 100%;
-    z-index: 24;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
 
 }
