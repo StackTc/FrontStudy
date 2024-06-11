@@ -378,11 +378,10 @@
 .slideshow {
     height: 460px;
     overflow: hidden;
+    position: relative;
 }
 
 .slideshow .sli-ul li {
-    width: 1226px;
-    height: 460px;
     float: left;
 }
 
@@ -390,4 +389,5 @@
     width: 1226px;
     height: 460px;
     display: block;
+    float: left;
 }

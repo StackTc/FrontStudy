@@ -295,7 +295,7 @@
 
 .site-category {
     position: absolute;
-    top: 99px;
+    top: 88px;
     left: -245px;
     z-index: 21;
     width: 234px;
@@ -378,16 +378,10 @@
 .slideshow {
     height: 460px;
     overflow: hidden;
-}
-
-.slideshow .sli-ul li {
-    width: 1226px;
-    height: 460px;
-    float: left;
+    position: relative;
 }
 
 .slideshow .sli-ul li a img {
     width: 1226px;
     height: 460px;
-    display: block;
 }

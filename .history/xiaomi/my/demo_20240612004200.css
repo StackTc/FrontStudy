@@ -378,6 +378,7 @@
 .slideshow {
     height: 460px;
     overflow: hidden;
+    position: relative;
 }
 
 .slideshow .sli-ul li {
