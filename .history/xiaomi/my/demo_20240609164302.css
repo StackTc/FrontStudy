@@ -127,6 +127,8 @@
     position: relative;
     height: 100px;
     margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
     align-items: center;
 }
 
@@ -136,7 +138,6 @@
     width: 55px;
     background-color: #ff6700;
     position: relative;
-    margin-top: 20px;
 }
 
 .head-logo:hover .logo::before {
@@ -176,6 +177,7 @@
 
 .header-nav {
     width: 850px;
+    border: 1px solid red;
 }
 
 .nav-list {
@@ -183,7 +185,6 @@
     line-height: 100px;
     margin-left: 190px;
     font-size: 16px;
-    position: relative;
 }
 
 .nav-list span {
@@ -228,11 +229,9 @@
 
 .header-nav-menu {
     position: absolute;
-    overflow: hidden;
     top: 100px;
     left: 0;
-    /* height: 230px; */
-    height: 0;
+    height: 230px;
     width: 100%;
     z-index: 24;
     box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
@@ -264,113 +263,17 @@
 
 .header-nav .figure {
     margin: 0 auto 16px;
-    height: 110px;
 }
 
 .header-nav-menu .title {
     height: 20px;
     line-height: 20px;
     text-align: center;
-    color: #333;
-    font-size: 12px;
 }
 
 .header-nav-menu p {
     height: 20px;
     line-height: 20px;
     text-align: center;
-    color: #ff6700;
-    font-size: 12px;
-}
-
-.text:hover {
-    color: #ff6700;
-}
-
-.nav-list li:first-child:hover>.header-nav-menu {
-    height: 230px;
-    border-top: 1px solid #e0e0e0;
-    transition: height .3s;
-}
-
-.site-category {
-    position: absolute;
-    top: 88px;
-    left: -245px;
-    z-index: 21;
-    width: 234px;
-    height: 460px;
-    font-size: 14px;
-    border: 1px solid #e0e0e0;
-}
-
-.cat-ul {
-    height: 420px;
-    padding: 20px 0;
-    color: #fff;
-    background-color: rgba(105, 101, 101, .6);
-}
-
-.cat-ul a {
-    color: #fff;
-}
-
-
-.category-list {
-    width: 204px;
-    height: 42px;
-    padding-left: 30px;
-    position: relative;
-}
-
-.category-list:hover {
-    background-color: #ff6700;
-}
-
-.category-list .cat-icon {
-    position: absolute;
-    right: 17px;
-    top: 0;
-}
-
-.cat-title {
-    width: 264px;
-    /* position: relative; */
-    display: block;
-    height: 42px;
-    line-height: 42px;
-    /* color: #fff; */
-}
-
-.commodity {
-    width: 992px;
-    height: 458px;
-    position: absolute;
-    top: -20px;
-    left: 234px;
-}
-
-.com-ul {
-    width: 248px;
-    float: left;
-    padding: 2px 0;
-}
-
-.commodity {
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.com-li {
-    width: 248px;
-    height: 76px;
-}
-
-.com-li a {
-    display: block;
-    padding: 0px 10px 38px;
-    color: #333;
-}
-
-.com-li .text {
-    line-height: 40px;
+    color: ;
 }

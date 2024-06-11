@@ -356,10 +356,6 @@
     padding: 2px 0;
 }
 
-.commodity {
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
 .com-li {
     width: 248px;
     height: 76px;
@@ -369,8 +365,4 @@
     display: block;
     padding: 0px 10px 38px;
     color: #333;
-}
-
-.com-li .text {
-    line-height: 40px;
 }

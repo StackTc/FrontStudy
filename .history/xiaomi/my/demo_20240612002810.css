@@ -357,7 +357,8 @@
 }
 
 .commodity {
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 1px solid red;
+    box-shadow: 0px 2px 19px 0px rgba(0, 0, 0, 0.75);
 }
 
 .com-li {
