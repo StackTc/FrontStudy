@@ -648,15 +648,7 @@
 }
 
 .home-appliances-box .appliances-left {
-    width: 240px;
-    padding-top: 10px;
-}
-
-.home-appliances-box .appliances-left img {
-    width: 234px;
-    display: block;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    width: 290px;
 }
 
 .home-appliances-box .brick-list {
@@ -664,112 +656,12 @@
 }
 
 .home-appliances-box .brick-list li {
-    width: 216px;
+    width: 236px;
     height: 300px;
     background: #fff;
-    margin-left: 10px;
-    margin-top: 10px;
 }
 
 .home-appliances-box .brick-list li img {
     width: 160px;
     height: 160px;
-    margin: 0 auto;
-    display: block;
-}
-
-.home-appliances-box .brick-list li h3 {
-    font-size: 14px;
-    color: #333;
-    font-weight: 400;
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-
-.home-appliances-box .brick-list li .desc {
-    font-size: 12px;
-    color: #b0b0b0;
-    text-align: center;
-    margin-top: 23px;
-}
-
-
-.home-appliances-box .brick-list li .price {
-    font-size: 14px;
-    color: #ff6700;
-    text-align: center;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) .figure-img {
-    float: right;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) img {
-    width: 80px;
-    height: 80px;
-}
-
-.brick-item-s {
-    height: 93px;
-    padding-top: 50px;
-    position: relative;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) .figure-img {
-    position: absolute;
-    right: 20px;
-    top: 32px;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) .title {
-    position: absolute;
-    left: 16px;
-    top: 32px;
-    font-size: 14px;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) .price {
-    position: absolute;
-    left: 20px;
-    top: 102px;
-}
-
-.home-appliances-box .brick-list li:nth-child(8) .title {
-    display: inline-block;
-    width: 94px;
-}
-
-.home-appliances-box .brick-list li:nth-child(8),
-.home-appliances-box .brick-list li:nth-child(9) {
-    padding-top: 50px;
-    height: 95px;
-    width: 234px;
-}
-
-.home-appliances-box .brick-list li:nth-child(9) .figure-more {
-    height: 48px;
-    width: 48px;
-    position: absolute;
-    right: 5px;
-    top: 48px;
-}
-
-.home-appliances-box .brick-list li:nth-child(9) .figure-more i {
-    font-size: 48px;
-    float: right;
-    margin-right: 30px;
-    color: #ff6700;
-}
-
-.home-appliances-box .brick-list li:nth-child(9) .more {
-    font-size: 18px;
-    color: #333;
-    clear: both;
-    float: left;
-    margin-left: 30px;
-}
-
-.home-appliances-box .brick-list li:nth-child(9) .more small {
-    display: block;
 }

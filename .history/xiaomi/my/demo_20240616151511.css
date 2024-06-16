@@ -648,15 +648,11 @@
 }
 
 .home-appliances-box .appliances-left {
-    width: 240px;
-    padding-top: 10px;
+    width: 290px;
 }
 
 .home-appliances-box .appliances-left img {
-    width: 234px;
-    display: block;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    
 }
 
 .home-appliances-box .brick-list {
