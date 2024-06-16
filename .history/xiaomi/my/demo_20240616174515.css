@@ -775,12 +775,14 @@
 }
 
 .footer-service {
+    height: 80px;
     padding: 27px 0;
-    border-bottom: 1px solid #e0e0e0;
 }
 
 .footer-service ul {
     width: 1226px;
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .footer-service ul li {
@@ -790,6 +792,7 @@
     line-height: 26px;
     border-right: 1px solid #e0e0e0;
     text-align: center;
+
 }
 
 .footer-service ul li:last-child {
@@ -805,9 +808,4 @@
     font-size: 24px;
     vertical-align: -4px;
     margin-right: 6px;
-}
-
-.footer-links dt {
-    float: left;
-
 }

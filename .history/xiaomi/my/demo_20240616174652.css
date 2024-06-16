@@ -781,6 +781,7 @@
 
 .footer-service ul {
     width: 1226px;
+
 }
 
 .footer-service ul li {
@@ -805,9 +806,4 @@
     font-size: 24px;
     vertical-align: -4px;
     margin-right: 6px;
-}
-
-.footer-links dt {
-    float: left;
-
 }

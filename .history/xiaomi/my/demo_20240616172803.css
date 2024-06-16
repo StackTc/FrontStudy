@@ -775,39 +775,16 @@
 }
 
 .footer-service {
-    padding: 27px 0;
-    border-bottom: 1px solid #e0e0e0;
+    height: 80px;
 }
 
 .footer-service ul {
-    width: 1226px;
+    height: px;
 }
 
 .footer-service ul li {
     float: left;
-    width: 19.8%;
-    height: 26px;
-    line-height: 26px;
-    border-right: 1px solid #e0e0e0;
-    text-align: center;
-}
-
-.footer-service ul li:last-child {
-    border-right: none;
-}
-
-.footer-service ul li a {
-    font-size: 16px;
-    color: #616161;
-}
-
-.footer-service ul li a em {
-    font-size: 24px;
-    vertical-align: -4px;
-    margin-right: 6px;
-}
-
-.footer-links dt {
-    float: left;
-
+    width: 150px;
+    height: 78px;
+    line-height: 78px;
 }
