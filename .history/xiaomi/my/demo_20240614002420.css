@@ -473,6 +473,7 @@
     left: 250px;
     height: 300px;
     width: 980px;
+    border: 1px solid red;
     overflow: hidden;
 }
 
@@ -482,11 +483,6 @@
     text-align: center;
     margin-right: 10px;
     padding-bottom: 45px;
-    background-color: #fff;
-}
-
-.rainbow-item-1 {
-    border-top: 1px solid #00c0a5;
 }
 
 .swiper-slide .thumb {
